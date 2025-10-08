@@ -24,20 +24,24 @@
 }
 #nombre{
     margin-top: 10%;
+    background-color: aliceblue;
     
 }
 #banner{
+    justify-content: center;
     height: 400px;
     margin-top: 10%;
+    background-color: aliceblue;
     background-image: url(images/centro.png);
-    background-size: 50%;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     
     
     
 }
 .banner .slider{
-    translate: 100px -30px;
+    translate: 220px -30px;
     width: 100px;
     height: 100px;
     transform-style: preserve-3d;
@@ -71,7 +75,9 @@
     
 }
 #info{
-    margin-top: 3%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
     text-align: center;
     box-shadow: #000 0px 0px 20px 0px;
     border-radius: 10px;
@@ -86,7 +92,21 @@
      #WD {
         text-align: center;
     }
-    #banner{
-        translate: 220px 30px;
-    }
+    .banner .slider{
+    translate: 300px -30px;
+    width: 100px;
+    height: 100px;
+    
+      
+}
+    
+}
+@media screen and (max-width: 768px) {
+    .banner .slider{
+    translate: 200px -30px;
+    width: 100px;
+    height: 100px; 
+     
+}
+    
 }
