@@ -24,14 +24,14 @@
 }
 #nombre{
     margin-top: 10%;
-    background-color: aliceblue;
+    
     
 }
 #banner{
     justify-content: center;
     height: 400px;
     margin-top: 10%;
-    background-color: aliceblue;
+    
     background-image: url(images/centro.png);
     background-size: contain;
     background-repeat: no-repeat;
